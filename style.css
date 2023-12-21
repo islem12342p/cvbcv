@@ -1,0 +1,54 @@
+video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+
+header {
+    background: linear-gradient(45deg, rgba(206, 41, 41, 0.347) 0%, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.1) 100%); /* Crystallized glass gradient background */
+    color: #a01919be;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid rgba(18, 185, 102, 0.2); /* Glass effect border */
+    margin-bottom: 20px; /* Increase space between header and sections */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.89); /* Box shadow for a shiny appearance */
+}
+
+
+nav h1 {
+    margin: 0;
+}
+
+nav a {
+    color: #09060692;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #791574;
+}
+
+section  {
+    display: flex;
+    box-sizing: 10px 10px;
+    padding: 50px;
+    margin: 50px;
+    border-radius: 30px;
+    background: linear-gradient(45deg, #0a7e7e18, #ffffff66); /* Crystal-like gradient */
+    box-shadow: 0 0 10px rgba(78, 11, 194, 0.611);    
+}
+section h1 {
+    color:#f2e67ed7;
+
+}
+section h3{
+    color: #eff613c6;
+}
+
